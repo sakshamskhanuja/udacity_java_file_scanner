@@ -32,6 +32,9 @@ public class Main {
                     wordCount += words.length;
                 }
                 System.out.println("Total number of words = " + wordCount);
+
+                // Closes the scanner.
+                scanner.close();
             } catch (FileNotFoundException e) {
                 System.out.println("File not found.");
             }
